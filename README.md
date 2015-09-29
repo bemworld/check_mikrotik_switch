@@ -40,9 +40,11 @@ The following test types are available (-t):
             current              
             powerConsumption     
             psu1State            
-            psu2State            
+            psu2State
+            disk
             diskTotal            
-            diskUsed             
+            diskUsed
+            mem
             memTotal             
             memUsed              
             portName             
