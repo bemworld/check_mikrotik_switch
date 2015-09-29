@@ -117,7 +117,7 @@ Usage:
             portTxBytes          
             portRxBytes    
     
-    All port results are summed up, except for 'portName', 'portOperState', 'portAdminState', 'portMtu', 'portMacAddress'
+    All port results are added up, except for 'portName', 'portOperState', 'portAdminState', 'portMtu', 'portMacAddress'
     }
     
     exit 3;
