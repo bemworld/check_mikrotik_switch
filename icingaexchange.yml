@@ -1,0 +1,18 @@
+name: check_mikrotik_switch
+description: "file:///README.md"
+url: "https://github.com/bemworld/check_mikrotik_switch"
+tags: MikroTik, Switch, Routerboard, Voltage, Port statistics, Port errors
+vendor: ~
+target: Network, Hardware, Sensor, Temperature
+type: Plugin
+license: Simplified BSD License
+releases: 
+  - 
+    name: 0.1
+    description: "0.1 Release"
+    files: 
+      - 
+        name: check_mikrotik_switch.pl
+        url: "file:///check_mikrotik_switch.pl"
+        description: "First release"
+        checksum: 999ba90af6d003867984090312197866
