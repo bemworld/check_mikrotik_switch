@@ -121,7 +121,6 @@ Usage:
     
     }
     
-    exit 3;
 }
 
 
@@ -241,14 +240,17 @@ GetOptions(
  
 if (!(defined $oids{$type} || $type eq 'mem' || $type eq 'disk')){
     usage("Check type $type not supported");
+    exit 3;
 }
 
 if ($checkTypeNeedsPorts {$type} && !@ports) {
     usage("For check type $type, port list must not be empty");
+    exit 3;
 }
 
 if (defined $doNotSumValues{$type} && @ports != 1) {
     usage("For check type $type, only one port is allowed");
+    exit 3;
 }
 
 $snmpSession = createSession($host,$community);
